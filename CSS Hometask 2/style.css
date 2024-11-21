@@ -1,0 +1,60 @@
+p {
+    color: blue;
+    background-color: yellow;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 24px;
+}
+
+div,section {
+    background-color: rgb(153, 152, 152);
+}
+ol,ul {
+    margin: 20px;
+}
+#special {
+    border: 1px solid rgb(0, 0, 0);
+}
+.highlight {
+    box-shadow: 5cqmin;
+}
+div span {
+    color: rgb(0, 255, 13);
+}
+ul > li {
+    color: brown;
+}
+h2 + p {
+    font-weight: bold;
+}
+h1 ~ p {
+    background-color: burlywood;
+}
+input[type="text"] {
+    border: 2px solid red;
+}
+a[target="_blank"] {
+    background-color: blueviolet;
+}
+table tr:nth-child(even) {
+    background-color: rgb(209, 24, 24);
+}
+button:hover {
+    background-color: green;
+}
+ul li > a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li ul li > a {
+    font-style: italic;
+}
+ul li ul li ul li > a {
+    font-weight: bold;
+}
+/* * {
+    background-color: rgb(151, 149, 149);
+} */
+div h2:hover {
+    transform: scale(1.05);
+}

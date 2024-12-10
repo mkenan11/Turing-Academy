@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(89, 89, 245);
+    padding: 10px;
+    font-family: "Poppins", serif;
+}
+
+nav h2{
+    font-weight: 600;
+    color: #ddd;
+}
+
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.container h2{
+    font-size: 38px;
+    font-family: "Parkinsas", serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(103,128,209);
+}
+
+
+.container h3{
+    font-size: 30px;
+    padding-bottom: 25px;
+    font-family: "Parkinsas", serif;
+    font-weight: 600;
+    color: rgb(30,41,85);
+}
+
+
+.logo_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card {
+    max-width: 400px;
+    width: 330px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0px 0px 14px 1px rgba(103,128,209, 0.75);
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 18px 3px rgba(0,178,4,0.75);
+    transform: scale(1.01);
+}
+
+.card:hover h2{
+    color: rgb(0,178,4) ;
+}
+
+.card:hover button{
+    background-color: rgb(0,178,4) ;
+    cursor: pointer;
+}
+
+.shoes_color
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.shoes_prop .shoes_color h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: black;
+}
+
+.shoes_prop .shoes_price h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: black;
+}
+
+.shoes_img img {
+    width: 87%;
+    height: auto;
+}
+
+.card_info {
+    text-align: left;
+    overflow: hidden;
+}
+
+.card_info h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: black;
+    transition: 0.2s;
+}
+
+.card_info h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+
+}
+.logo_icon img {
+    width: 60px; /* İhtiyaca göre değiştirin */
+    height: auto;
+    object-fit: contain;
+}
+
+.logo_icon i{
+    font-size: 20px;
+}
+
+.shoes_prop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.colors{
+    display: flex;
+    gap: 3px;
+    position: relative;
+    top: 2px;
+}
+
+.first_color_option{
+    border-radius: 50%;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+}
+
+.second_color_option{
+    border-radius: 50%;
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+}
+
+.third_color_option{
+    border-radius: 50%;
+    background-color: green;
+    width: 15px;
+    height: 15px;
+}
+
+.fourth_color_option{
+    border-radius: 50%;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+}
+
+.shoes_rating{
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: blue;
+    color: #ddd;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(89, 89, 245);
+    width: auto;
+    height: 50vh;
+    margin-top: 150px;
+}

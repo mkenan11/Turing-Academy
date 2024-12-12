@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+header h2{
+    text-align: center;
+}
+.col_4{
+    flex: 0 0 calc((100% / 12 *4) - 25px);
+}
+
+.card{
+    padding: 30px;
+    border-radius: 0 0 12px 12px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+}
+
+.card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card_title  h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px ;
+    color: #383838;
+}
+
+.card_title h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50% ;
+    margin-bottom: 13px;
+    background-color: #C57EEC;
+    padding: 30px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.first{
+    background-color: #E848A2;
+}
+
+.second{
+    background-color: #32BFD0;
+}
+
+.third{
+    background-color: #42BE42;
+}
+
+.fourth{
+    background-color: #E8E803;
+}
+
+.fifth{
+    background-color: #C57EEC;
+}
+
+.sixth{
+    background-color: #EC7CBC;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.pink{
+    border-top: 25px solid #E848A2;
+    box-shadow: 0px 0px 10px 0px #E848A2;
+}
+
+.pink:hover{
+    box-shadow: 0px 0px 13px 5px #E848A2;
+}
+
+.blue{
+    border-top: 25px solid #32BFD0;
+    box-shadow: 0px 0px 10px 0px #32BFD0;
+}
+.blue:hover{
+    box-shadow: 0px 0px 13px 5px #32BFD0;  
+}
+
+.green{
+    border-top: 25px solid #42BE42;
+    box-shadow: 0px 0px 10px 0px #42BE42;
+}
+
+.green:hover{
+    box-shadow: 0px 0px 13px 5px #42BE42;
+}
+.yellow{
+    border-top: 25px solid #E8E803;
+    box-shadow: 0px 0px 10px 0px #E8E803;
+}
+.yellow:hover{
+    box-shadow: 0px 0px 13px 5px #E8E803;
+}
+.purple{
+    border-top: 25px solid #C57EEC;
+    box-shadow: 0px 0px 10px 0px #C57EEC;
+}
+.purple:hover{
+    box-shadow: 0px 0px 13px 5px #C57EEC;
+}
+.lightpink{
+    border-top: 25px solid #EC7CBC;
+    box-shadow: 0px 0px 10px 0px #EC7CBC;
+}
+.lightpink:hover{
+    box-shadow: 0px 0px 13px 5px #EC7CBC;  
+}
+button{
+    border: none;
+    padding: 20px 45px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #E549A3;
+    opacity: 1;
+    transition: 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:active{
+    transform: scale(0.98);
+}

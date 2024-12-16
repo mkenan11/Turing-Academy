@@ -7,6 +7,7 @@
 
 body{
     background-color: #242424;
+    height: 120vh;
 }
 
 .container{
@@ -49,6 +50,19 @@ body{
     background-color: #D74163;
     border-radius: 10px;
     color: white;
+    position: relative;
+}
+
+.card_name h2{
+    font-size: 26px ;
+}
+
+.nar_img img{
+    width: 90px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
 }
 
 .card_prop{
@@ -57,7 +71,7 @@ body{
     border-radius: 60px;
     background-color: #DD5A79;
     width: fit-content;
-    margin-top: 15px;
+    margin-top: 10px;
     gap: 10px;
     align-items: center;
 }
@@ -74,6 +88,195 @@ body{
     font-size: 10px;
 }
 
-.manat{
-    position: relative;
+.main{
+    padding: 25px;
 }
+
+.call_prop{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.call_prop h3{
+    font-weight: 500;
+}
+
+.call_progress_bar {
+    width: 100%; 
+    height: 5px; 
+    background-color: #555; 
+    border-radius: 4px; 
+    overflow: hidden; 
+    margin-top: 10px;
+}
+  
+
+.progress{
+    width: 40%; 
+    height: 100%; 
+    background-color: #f05454; 
+}
+
+
+.internet_prop{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.internet_prop h3{
+  font-weight: 500;
+}
+
+.internet_progress_bar{
+    width: 100%; 
+    height: 5px; 
+    background-color: #555; 
+    border-radius: 4px; 
+    overflow: hidden; 
+    margin-top: 10px;
+}
+
+
+.internet_progress_bar .progress{
+    width: 60%; 
+    height: 100%; 
+    background-color: #f05454; 
+}
+.turning{
+    display: flex;
+    align-items: left;
+    background-color: #58595C;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    gap: 30px;
+}
+
+.turning h3{
+    font-weight: 500;
+}
+
+.turning i{
+    font-size: 22px;
+}
+
+.bonus_prop i{
+    font-size: 22px;
+}
+.bonus_prop{
+    display: flex;
+    align-items: left;
+    background-color: #58595C;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 7px;
+    gap: 30px;
+}
+
+.bonus_prop h3{
+    font-weight: 500;
+}
+
+
+.social_media_icons{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.sosial_sebekeler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    background-color: #58595C;
+    padding: 10px ;
+    border-radius: 10px;
+    color: white;
+    gap: 5px;
+    margin-bottom: 47px;
+
+}
+
+.sosial_sebekeler h3{
+    font-weight: 400;
+}
+
+.sosial_sebekeler_text{
+    width: 100px;
+}
+
+
+.call_prop > i {
+    font-size: 22px;
+}
+
+.internet_prop > i {
+    font-size: 22px;
+}
+
+.social_media_icons i{
+    font-size: 12px;
+}
+
+
+.social_media_icons div{
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+
+} 
+
+.twitter{
+    background-color: #54ACEE;
+}
+
+.instagram{
+    background-color: #FF7044;
+}
+
+.facebook{
+    background-color: #4267B2;
+}
+
+.whatsapp{
+    background-color: #08A92E;
+}
+
+.footer{
+    width: 86%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+button{
+    width: 100%;
+    padding: 16px 0;
+    border-color: white;
+    background-color: #333132;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+

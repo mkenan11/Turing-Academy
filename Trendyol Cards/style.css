@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+ 
+body{
+    background-color: #FEFEFE;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 50px auto;
+}
+
+.card_wrapper{
+    display: flex;
+    gap: 15px;
+}
+
+.col_3{
+    width: calc(100% / 12 * 3);
+}
+img{
+    width: 100px;
+    height: 100%;
+}
+
+.card{
+    background-color: #FEFEFE;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.card_img{
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.card_1{
+    background-image: url(https://cdn.dsmcdn.com/mnresize/500/-/ty1597/prod/QC/20241102/18/b8db11e5-1f49-3cf1-a130-3768b97f3712/1_org.jpg);
+}
+
+.card_2{
+    background-image: url(https://cdn.dsmcdn.com/ty1498/product/media/images/prod/PIM/20240822/15/0c2f80b1-0bf6-4f15-8d96-5dbae4e0a382/1_org_zoom.jpg);
+}
+
+.card_3{
+    background-image: url(https://cdn.dsmcdn.com/mnresize/500/-/ty232/product/media/images/20211108/14/171066587/267621530/3/3_org.jpg);
+}
+
+.card_4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIBVnEbuff4GjbSHBdaEzHIvSKAGlOBHTRNQ&s);
+}
+
+.clothes_prop{
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    bottom: -2px;
+    justify-content: space-between;
+    align-items:last baseline;
+    width: 100%;
+}
+
+.avantage{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.avantage img{
+    width: 70px;
+    height: auto;
+}
+
+.like_button{
+    position: absolute;
+    top: 12px;
+    right: 10px; 
+}
+
+.like_button>button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;  
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.like_button>button>i {
+    font-size: 24px; 
+    font-weight: 100;
+    color: rgb(73, 73, 73);
+}
+
+.sponsor{
+    padding: 1px 8px;
+    background-color: #CFD0D0;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: rgb(32, 32, 32);
+}
+
+.sponsor p{
+    font-size: 14px;
+}
+
+.carusel{
+    width: 60px;
+    height: 16px;
+    background-color: #8a8888;
+    border-radius: 15px;
+    opacity: 0.7;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carusel div{
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.color_choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.gradient{
+    width: 15px ;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(57, 57, 255);
+}
+ 
+.color_choice .number p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}
+
+
+.card_title{
+    padding-top: 18px ;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.card_title span{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card_title p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.action_text{
+    display: flex;
+    margin-top: 0px;
+    gap: 5px;
+    padding: 5px 14px;
+}
+
+.icon_img {
+    max-width: 26px;
+    max-height: 24px;
+}
+
+.icon_img img{
+    width: 100%;
+    height: auto;
+}
+
+.action_text span{
+    color: #F37919;
+    font-weight: 600;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 8px;
+    margin-top: 3px;
+
+}
+
+.photo_device_img{
+    width: 30px;
+    height: auto;
+}
+
+.photo_device_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.stars i{
+    color: #F37919;
+    font-size: 13px;
+}
+
+.stars{
+    display: flex;
+    gap: 2px;
+}
+
+.rating p{
+    font-weight: 500;
+}
+
+#card_1_rating{
+    margin-top: 39px;
+}
+
+#card_4_rating{
+    margin-top: 39px;
+}
+
+.day_sale{
+    padding: 8px 14px;
+}
+
+.day_sale p{
+    font-size: 14px;
+    color: #BB0201;
+    font-weight: 600;
+}
+
+.price{
+    display: flex;
+    margin-top: 40px;
+    padding: 0 14px;
+    gap: 4px;
+    align-items: baseline;
+}    
+
+.wholesale p{
+    font-size: 20px;
+    font-weight:600;
+    color: #BE0F0D;
+}
+
+.single p{
+    font-size: 14px;
+    font-weight:600;
+    color: #BE0F0D;
+}
+
+#gun_14{
+    margin-top: 2px;
+}
+
+.add_prop{
+    display: flex;
+    gap: 10px;
+    padding: 10px 14px;
+}
+
+
+
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #FFF6EE;
+
+}
+
+.sign i{
+    color: #F37919;
+}
+
+.sign p{
+    color: #474746;
+    font-size: 13px;
+    font-weight: 600 ;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.campaign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    height: 200vh;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.content_title{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content_title h2{
+    color: #190A32;
+    font-weight: 700;
+}
+
+.content_title h3{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card:hover .card_title h2{
+    color: #DD3794;
+}
+
+.card:hover button{
+    background-color: #DD3794 ;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 12px 0px #DD3794;
+    transform: scale(1.05);
+}
+
+.card:hover .button{
+    transform: scale(1.05);
+}
+
+.col_12{
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.col_6{
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.col_4{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.card_img img{
+    width: auto;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.card_title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card_title h2{
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.card_title p{
+    font-size: 15px;
+    max-width:340px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #FC60AB;
+    color:#FC60AB ;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (min-width: 0px) and (max-width: 575px){
+    .container{
+      max-width: 450px;
+    }
+
+    .col_12{
+        flex: 0 0 auto;
+        width: 100%;
+    }   
+
+  }
+
+@media (min-width: 576px) and (max-width: 899px){
+    .container{
+      max-width: 800px;
+    }
+
+    .col_6{
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 10px;
+    }   
+
+  }
+
+  @media (min-width: 900px){
+    .container{
+      max-width: 1200px;
+    }
+
+    .col_4{
+        flex: 0 0 auto;
+        width: 100%/12*4;
+        padding: 10px;
+    }   
+
+  }

@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 150vh;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.links p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.links p{
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.links > div {
+    padding: 15px;
+}
+
+.container h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dropdown{
+    position: relative;
+    padding: 10px;
+    transition: 1.5s;
+}
+
+.dropdown_link{
+    display: none;
+    position: absolute;
+    bottom: -200px;
+}
+
+.dropdown:hover .dropdown_link{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 15px 25px;
+    background-color: rgb(207, 201, 201);
+    gap: 20px;
+    border-radius: 10px;
+}
+
+header {
+    background-image: url(output-onlinepngtools.png);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    position: relative;
+}
+
+.hero_content {
+    text-align: left; 
+    width: 100%; 
+    position: absolute;
+    top: 270px;
+    right: -180px;
+}
+
+.title h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.title span{
+    color: #106EEA;
+}
+
+.description{
+    margin-top: 3px;
+}
+
+.description h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5d6063;
+}
+
+.action_button{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+    gap: 30px;
+}
+
+.get_button button{
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    background-color: #106EEA;
+    border: none;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.get_button button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.get_button button:active{
+    transform: scale(0.98);
+    background-color: #0f74f7 ;
+}
+
+
+.watch_button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+.watch_button i{
+    padding: 10px 12px;
+    border: 2px solid #106EEA;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #106EEA ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.watch_button i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.watch_button i:active{
+    transform: scale(0.98);
+}
+
+
+.watch_button p{
+    font-weight: 600;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    margin: 200px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#textInput{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+#textInput::placeholder{
+    font-size: 18px;
+}
+
+#textInput:focus{
+    border: 1px solid #333;
+    transform: scale(1.01);
+}
+
+#addButton{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#addButton:hover{
+    background-color: #333;
+    transform: scale(1.03);
+}
+
+#addButton:active{
+    transform: scale(0.98);
+}
+
+.taskText{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trash i{
+    font-size: 23px;
+    color: #333;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+}
+
+.trash i:hover{
+    color:red;
+}
+
+
+
+
+

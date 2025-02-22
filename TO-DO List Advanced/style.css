@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    margin: 180px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#textInput{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+#textInput::placeholder{
+    font-size: 18px;
+}
+
+#textInput:focus{
+    border: 1px solid #333;
+    transform: scale(1.01);
+}
+
+#addButton{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#addButton:hover{
+    background-color: #333;
+    transform: scale(1.03);
+}
+
+#addButton:active{
+    transform: scale(0.98);
+}
+
+.taskText{
+    font-size: 20px ;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trash i{
+    font-size: 23px;
+    color: #333;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+}
+
+.trash i:hover{
+    color:red;
+}
+
+.edit-btn, .save-btn {
+    margin-left: 1px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 3px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 7px;
+}
+
+.edit-btn:hover, .save-btn:hover {
+    background-color: #0056b3;
+}
+
+.edit-btn:active, .save-btn:active{
+    background-color: #025fc2;
+    transform: scale(0.98);
+}
+
+.edit-input {
+    padding: 3px 8px;
+    font-size: 17px;
+    width: 150px;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid gray;
+}
+
+
+
+
+

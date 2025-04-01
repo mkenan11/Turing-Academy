@@ -1,0 +1,19 @@
+.neleredirik{
+    min-height: 100vh;
+    background-color: #F9F9F9;
+    h2{
+        color: #242730;
+        font-size: 43px;
+    }
+
+}
+
+.container{
+    padding-top: 120px;
+}
+
+.card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}

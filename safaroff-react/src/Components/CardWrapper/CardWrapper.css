@@ -1,0 +1,11 @@
+.container{
+    max-width: 1120px;
+    margin: 125px auto;
+
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}

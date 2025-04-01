@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.header_container{
+    max-width: 1100px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-left: 110px;
+}
+
+.description p, .description span {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    color: #242730;
+    line-height: 48px;
+}
+
+.description span{
+    color: #1BA9E3;
+}
+
+.year-2004{
+   display: flex;
+   justify-content: start;
+}
+
+.year-2004 p{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #1BA9E3;
+    padding: 0 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;
+}
+
+
+

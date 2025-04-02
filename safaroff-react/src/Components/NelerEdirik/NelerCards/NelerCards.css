@@ -2,7 +2,7 @@
     width: calc(25% - 50px);
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
     h3{
         color: #242730;
         font-weight: 600;
@@ -10,8 +10,9 @@
     }
     p{
         color: #52555E;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 20px;
+        letter-spacing: 0px;
     }
 }
 
